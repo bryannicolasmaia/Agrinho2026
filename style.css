@@ -1,6 +1,6 @@
 body {
   background-color: rgb(36, 84, 100);
-  color:rgb(214, 208, 242)
+  color:rgb(211, 233, 233)
 }
 
 h1 {
@@ -8,8 +8,7 @@ h1 {
   text-align: center;
 }
 
-p1 {
-  font-family: serif;
+p {
+  font-family: Georgia, serif;
   font-size: 20px;
-  color:rgb(211, 233, 233)
 }
