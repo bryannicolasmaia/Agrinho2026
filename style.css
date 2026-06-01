@@ -28,7 +28,7 @@ p {
 
 /* Ajuste opcional para a imagem não estourar o tamanho do container */
 .conteudo-principal img {
-  max-width: 100%;
+  max-width: 35%;
   height: auto;
   margin-bottom: 20px;    /* Espaçamento abaixo da imagem */
 }
