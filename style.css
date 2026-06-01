@@ -14,3 +14,21 @@ p {
 }
 
 .Imagem1 { width: 35%;}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column; /* Alinha os elementos em vertical (um abaixo do outro) */
+  align-items: center;    /* Centraliza horizontalmente todos os filhos */
+  text-align: center;     /* Garante que as linhas de texto fiquem centralizadas */
+  
+  max-width: 800px;       /* Opcional: limita a largura máxima para o site não ficar espalhado em telas gigantes */
+  margin: 0 auto;         /* Opcional: centraliza o container inteiro na tela */
+  padding: 20px;
+}
+
+/* Ajuste opcional para a imagem não estourar o tamanho do container */
+.conteudo-principal img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;    /* Espaçamento abaixo da imagem */
+}
