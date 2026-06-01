@@ -28,7 +28,8 @@ p {
 
 /* Ajuste opcional para a imagem não estourar o tamanho do container */
 .conteudo-principal img {
-  max-width: 35%;
-  height: auto;
-  margin-bottom: 20px;    /* Espaçamento abaixo da imagem */
+  width: 600px;        /* Define a largura que você deseja para a imagem */
+  max-width: 100%;     /* Garante que em telas menores (como celular) ela diminua e não quebre a tela */
+  height: auto;        /* Mantém a proporção da imagem para não ficar esticada ou achatada */
+  margin-bottom: 20px;
 }
